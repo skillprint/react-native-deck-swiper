@@ -1,5 +1,4 @@
 import { StyleSheet } from 'react-native'
-import Theme from '../constants/Theme'
 
 const styles = StyleSheet.create({
   card: {
@@ -70,8 +69,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     alignContent: 'center',
     justifyContent: 'space-between',
-    backgroundColor: Theme.colors.white,
-    borderColor: Theme.colors.black,
+    backgroundColor: 'white',
+    borderColor: 'black',
     borderRadius: 15.0,
     borderStyle: 'solid',
     borderWidth: 2.0,
